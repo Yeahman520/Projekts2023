@@ -1,0 +1,73 @@
+body{
+    background-color: #F1EDEE;
+}
+#page{
+    width: 1200px;
+    min-height: 1000px;
+    background-color: #3D5467;
+    margin: 0 auto;
+}
+#top{
+    width: 1200px;
+    min-height: 200px;
+    background: #8AA29E;
+}
+
+#navi{
+    width: 1200px;
+    min-height: 50px;
+    background: #686963;
+}
+
+#content{
+    width: 1200px;
+    min-height: 800px;
+    background: #FFCAD4;
+}
+.navbutton{
+    width: 299px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2.4;
+    font-size: 16pt;
+    background-color: beige;
+    float: left;
+    margin-right: 1px;
+}
+.navbutton:hover{
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    margin-left: -40px;
+}
+
+
+/*  Teksta animācija */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+svg {
+	font-family: "Roboto Mono", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365FA0;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); }
+	80%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	100% {
+		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
