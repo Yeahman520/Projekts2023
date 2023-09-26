@@ -80,3 +80,18 @@ svg text {
     margin: 0 auto;
     top: 250px;
 }
+.loginbutton{
+    height: 35px;
+    margin-right: 50px;
+    margin-left: 15px;
+    font-family: Sans-serif;
+    font-size: 16px;
+    text-align: left;
+    transition-duration: 0.4s;
+    opacity: 0.6;
+}
+
+.loginbutton:hover {
+  background-color: #FFCAD4;
+  color: white;
+}
