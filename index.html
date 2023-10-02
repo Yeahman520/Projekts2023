@@ -27,15 +27,17 @@
         </div>
         <div id="content">
             <div class="login">
-                <input placeholder="login" 
+                <form action="proc.php" method="POST">
+                <input name="login" type="text" placeholder="login" 
                     style="width: 160px; height: 35px; margin-bottom: 15px;
                         margin-top: 15px; margin-left: 15px; font-family: Sans-serif; font-size: 16px;"/>
 
-                <input placeholder="password" 
+                <input name="password" placeholder="password" 
                     style="width: 160px; height: 35px; margin-bottom: 15px;
                         margin-left: 15px; font-family: Sans-serif; font-size: 16px;"/>
 
-                <button class="loginbutton">LOGIN</button>
+                <button class="loginbutton" type="submit">LOGIN</button>
+                </form>
             </div>
         </div>
     </div>
